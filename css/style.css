@@ -1,0 +1,91 @@
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header div img {
+    width: 10%;
+}
+
+nav a {
+    padding: 0 20px;
+    color: black;
+    font-size: 1.2em;
+
+}
+
+section div img {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+main {
+    background-image: url("https://jp.lt/wp-content/uploads/2018/09/Dar%C5%BEov%C4%97s.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding: 3px 0;
+    font-size: 1.2em;
+}
+
+span {
+    color: green;
+}
+
+input:not([type="submit"]), textarea {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="submit"] {
+    max-width: 50%;
+    background-color: green;
+    border: none;
+    margin-bottom: 30px;
+    color: white;
+    padding: 8px 150px;
+}
+
+textarea {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+table, tr, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    text-align: center;
+    padding-top: 5px;
+}
+
+td:first-child {
+    color: green;
+    font-weight: bold;
+}
